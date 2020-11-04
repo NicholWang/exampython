@@ -13,5 +13,6 @@ class TClass(models.Model):
 
     def get_class(self):
         return {
-            'class_id': self.id
+            'class_id': self.id,
+            'class_name': self.class_name
         }
